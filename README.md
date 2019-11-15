@@ -34,10 +34,9 @@ The repository consists in the following file:
     > a python file that contains the implementation of the algorithm that solves problem 4.
 
 10. __`main.ipynb`__: 
-    > a Jupyter notebook explaines the strategies we adopted solving the homework and the Bonus point (visualization task). **Avoid** pushing on GitHub notebook that contain entire long printed list, otherwise we will not be able to open it.
-    Example of Search Engines
+    > a Jupyter notebook explaines the strategies we adopted solving the homework and the Bonus point (visualization task). 
+        
+        Example of Results from the Search Engines
           1. Conjunctive query
-
           2. Conjunctive query & Ranking score  
-
           3. Stars query & Magic score
