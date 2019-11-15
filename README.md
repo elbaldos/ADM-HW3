@@ -8,6 +8,7 @@
 
 **Goal of the homework**: *Build a search engine over a list of movies that have a dedicated page on Wikipedia.*
 
+
 The repository consists in the following file:
 1. __`README.md`__:
     > a Markdown file that explains the content of your repository. 
@@ -27,9 +28,10 @@ The repository consists in the following file:
 7. __`utils.py`__: 
     > a python file that gather functions we need in more than one of the previous files like (`collector`, `parser`, etc.)
 8. __`main.py`__:
-    > a python file that once executed build up the search engine. This file is very important because it is going to be the one we will launch during the exam, indeed we will perform live queries on your search engine. In order to let everything go the best, you have to be sure that the engine will work on pre-computed indeces. Thus, **forget to allow the main file to build the index from scratch**. When the user executes the file it will be able to choose:
-      	* `search_engine`: a parameter that the user set to choose the search engine to run. According to the request of the homework, we can get 1,2 or 3.
-      	* Any other parameters you would like.
+    > a python file that once executed build up the search engine. This file is very important because it is going to be the one we will launch during the exam, indeed we will perform live queries on your search engine. In order to let everything go the best, you have to be sure that the engine will work on pre-computed indeces. Thus, **forget to allow the main file to build the index from scratch**.
+    When the user executes the file it will be able to choose:
+      	    * `search_engine`: a parameter that the user set to choose the search engine to run. According to the request of the homework, we can get 1,2 or 3.
+      	    * Any other parameters you would like.
 9. __`exercise_4.py`__:
     > a python file that contains the implementation of the algorithm that solves problem 4.
 
