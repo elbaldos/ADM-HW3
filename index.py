@@ -223,9 +223,11 @@ for i in range(len(movieDatabase)):
 
 from collections import Counter
 movieDatabase["Clean All"] = movieDatabase["Clean All"].apply(lambda x : Counter(x))
-movieDatabase.head(3)
 
-
+TF = []
+for i in range(len(movieDatabase["Clean All"])):
+    TF.append(computeTF(movieDatabase["Clean All"][i]))
+movieDatabase["TF"] = TF
 
 ####-------function------------------- 
 #def computeTF(doc_words)
