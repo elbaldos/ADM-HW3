@@ -14,28 +14,22 @@ The repository consists in the following file:
     > a Markdown file that explains the content of your repository. 
 
 2. __`collector.py`__:
-    > a python file that contains the line of code needed to collect our data from the `html` page (from which we get the urls) and Wikipedia.
+    > a python file where we are parsing the `html` files given by our instructors and also the code that enables us to crawl wikipedia and extract the information we need.
 3. __`parser.py`__:
-    > a python file that contains the line of code needed to parse the entire collection of `html` pages and save those in `tsv` files.
+    > a python file where we are parsing the extracted `html` pages from wikipedia and we save information like title, intro, plot and infobox in `tsv` files.
 4. __`index.py`__:
-    > a python file that once executed generate the indexes of the Search engines.
+    > a python file where we clean the data, create the inverted index and calculate the `TF`, `IDF` and `NORMALIZED TF_IDF` for all the movies and the terms within.
 5. __`index_utils.py`__:
-    > a python file that contains the functions we used for creating indexes.
+    > a python file that contains the functions we used for creating the indexes and cleaning the data.
 6. __`utils.py`__: 
-    > a python file that gather functions we need in more than one of the previous files like (`collector`, `parser`, etc.)
+    > a python file that contains functions we need in more than one of the previous files.
 7. __`main.py`__:
-    > a python file that once executed build up the search engine. This file is very important because it is going to be the one we will launch during the exam, indeed we will perform live queries on your search engine. In order to let everything go the best, you have to be sure that the engine will work on pre-computed indeces. Thus, **forget to allow the main file to build the index from scratch**.
-    
-    > When the user executes the file it will be able to choose:
-    >    * `search_engine`: a parameter that the user set to choose the search engine to run. According to the request of the homework, we can get 1,2 or 3.
-    >  	* Any other parameters you would like.
+    > a python file that contains the functions of the search engines.
 8. __`exercise_4.py`__:
     > a python file that contains the implementation of the algorithm that solves problem 4.
-
 9. __`main.ipynb`__: 
-    > a Jupyter notebook explaines the strategies we adopted solving the homework and the Bonus point (visualization task). 
-        
-        Example of Results from the Search Engines
-          1. Conjunctive query
-          2. Conjunctive query & Ranking score  
-          3. Magic score
+    > a Jupyter notebook with all the steps and results of the analysis. In the end, you will be able to select the Engine type.
+    > When the user executes the file it will be able to choose:
+    >    * `search_engine`: a parameter that the user set to choose the search engine to run. According to the request of the homework, we can get 1,2 or 3.
+
+**Enjoy!!!**
