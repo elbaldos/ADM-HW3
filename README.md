@@ -15,7 +15,7 @@ The repository consists in the following file:
 
 2. __`collector.py`__:
     > a python file that contains the line of code needed to collect our data from the `html` page (from which we get the urls) and Wikipedia.
-3. __`collector_utils.py`__:
+0. __`collector_utils.py`__:
     > a python file that stores the function we used in `collector.py`.
 2. __`parser.py`__:
     > a python file that contains the line of code needed to parse the entire collection of `html` pages and save those in `tsv` files.
