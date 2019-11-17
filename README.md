@@ -25,7 +25,7 @@ The repository consists in the following file:
     > a python file that once executed generate the indexes of the Search engines.
 6. __`index_utils.py`__:
     > a python file that contains the functions we used for creating indexes.
-7. __`utils.py`__: 
+0. __`utils.py`__: 
     > a python file that gather functions we need in more than one of the previous files like (`collector`, `parser`, etc.)
 8. __`main.py`__:
     > a python file that once executed build up the search engine. This file is very important because it is going to be the one we will launch during the exam, indeed we will perform live queries on your search engine. In order to let everything go the best, you have to be sure that the engine will work on pre-computed indeces. Thus, **forget to allow the main file to build the index from scratch**.
