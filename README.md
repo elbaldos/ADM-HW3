@@ -19,7 +19,7 @@ The repository consists in the following file:
     > a python file that stores the function we used in `collector.py`.
 2. __`parser.py`__:
     > a python file that contains the line of code needed to parse the entire collection of `html` pages and save those in `tsv` files.
-4. __`parser_utils.py`__:
+0. __`parser_utils.py`__:
     > a python file that gathers the function we used in `parser.py`.
 5. __`index.py`__:
     > a python file that once executed generate the indexes of the Search engines.
